@@ -1,0 +1,175 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+
+a{
+    color: #a0aaad !important;
+}
+#bar{
+    background-color: #494949 !important;
+    
+   
+}
+
+.teck{
+    color: #cc2543 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.ari{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card{
+    /*margin-left: 5%;*/
+    border: 1px !important;
+    background-color: transparent !important;
+    
+}
+strong{
+    color: white !important;
+}
+.second{
+    background-color: white !important; 
+}
+.second-card{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    margin-top: 10.5%;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#button-{
+    width: 269px !important;
+}
+.user{
+    color: #6bbf51;
+    margin: 5px;
+}
+.cle{
+    margin: 5px;
+}
+i{
+    color: #6bbf51;
+}
+.date{
+    display: flex;
+    
+}
+.card-body{
+    background-color: white;
+}
+.first-card{
+    margin: 1em;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+form{
+    margin: 5px;
+}
+.logo1{
+    margin: 5px;
+}
+h6{
+    font-size: 18px;
+}
+
+.by{
+    color: black !important;
+
+}
+.new-nav{
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-left: auto !important;
+    float: right !important;
+}
+h6{
+    margin-bottom: none;
+    
+}
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .article{
+      flex-direction: column;
+      
+    
+  }
+  .first-card{
+    
+   
+    width: 95% !important;
+
+}
+.second-card{
+
+    margin-top: 1em !important;
+    
+}
+.ul-{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+
+
+
+@media screen and (max-width: 404px) {
+.teck{
+    font-size: 10px !important;
+    font-weight: bold;
+}
+.article{
+    display: flex;
+    justify-content: center !important;
+    margin-right: auto; 
+    width: 110%;
+    flex: 1;
+    
+    
+}
+
+.second-card{
+
+    margin-top: 1em !important;
+    
+}
+
+
+}
+ 
+}
+
+
+
+
